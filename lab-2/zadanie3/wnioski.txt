@@ -1,0 +1,7 @@
+Zlozonosci czasowe:
+DFT - O(n^2)
+FFT - (n * logn)
+
+DFT czas to:		0.7069888114929199
+FFT natomiast: 		2.8133392333984375e-05
+Wykresy wskazuja ze sygnal okreslony funkcja ma czestotliwosc 2 Hz.

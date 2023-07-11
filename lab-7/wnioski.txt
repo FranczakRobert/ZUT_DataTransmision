@@ -1,0 +1,22 @@
+W zadaniu 1 wybrana modulacja to ASK.
+Transmisja przebiega bez wiekszych problemow - zakodowany sygnal ma >100 bitow, modulacja demodulacja i odkodowanie przebiega bez problemu.
+
+W zadaniu 2 Po dodaniu szumu:
+Alfa = 0 ASK , PSK ani FSK nie ulaga zakloceniu (szum wylaczony), przy
+Alfa = 1, mozna zauwazyc ze ASK ma sporadyczne gubione bity na granicy 0-5 %. FSK i PSK bez zmian.
+Przy Alfa = 2 ASK zawsze ma gubione bity w zakresie 5 - 18 %.
+
+W zadaniu 3:
+PSK i FSK nie ulegaja zmianie przy dodaniu tlumienia w zakresie 0 - 20.
+ASK znaczaco gubi bity juz przy zmianie B = 1.
+zmiany B w od 1 do 20 nie przekracza jednak BER 50%
+
+W zadaniu 4:
+PSK i FSK nie ulegaja zmianie przy dodaniu tlumienia w zakresie 0 - 20, oraz ASK z zakresu 0 - 2
+ASK zachowuje sie bardzo podobnie jak w zadaniu 3, wspolczynnik BER jest duzo wyzszy.
+zmiany B w od 1 do 20 oraz A od 0 do 2 moga dla ASK przekroczyc nawet 55%
+
+WNIOSKI:
+Po w/w obserwacjach, można wywnioskować, że efektywniejsza jest modulacja 
+i demodulacja kluczowaniem FSK lub PSK. Kluczowanie ASK nie jest tak 
+efektywne. 
