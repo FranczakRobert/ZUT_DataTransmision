@@ -1,1 +1,3 @@
-## Wybrany język programowania: Python# ZUT_DataTransmision
+## ZUT - zadania na Transmisję Danych.
+
+Ponownie, jeżeli ktoś potrzebuje się zainspirować - proszę bardzo.
